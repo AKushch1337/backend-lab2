@@ -23,11 +23,11 @@ cd /path/to/project
 # Build the project using Docker
 
 ```bash
-docker build . -t lab1:1.0 
+docker build . -t lab2:1.0 
 ```
 
 ```bash
-docker run -p 8080:8080 --rm lab1:1.0
+docker run -p 8080:8080 --rm lab2:1.0
 ```
 
 # Build the project using Docker Compose
